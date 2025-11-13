@@ -5,7 +5,7 @@ This tiny README explains how to set up a Python virtual environment, install de
 1) Open PowerShell and change to the project directory:
 
 ```powershell
-Set-Location 'C:\Users\gosai\OneDrive\projects\car_resale_value_prediction'
+Set-Location '...\car_resale_value_prediction'
 Get-ChildItem
 ```
 
@@ -48,5 +48,3 @@ Troubleshooting
 - If you see `ModuleNotFoundError: No module named 'flask'`, ensure the virtualenv is activated and `pip install -r requirements.txt` completed without errors.
 - If the server raises a `FileNotFoundError` about CSV files, ensure your CSV is in the project root and named one of the expected files (the app checks multiple candidates). The workspace shows `Cleaned Car.csv`, which is acceptable.
 - If `/predict` returns an error text stating the model is missing, ensure a model pickle exists in the project root with one of these names: `LinearRegressionModel.pkl`, `linear_regression_model.pkl`, or `model.pkl`.
-
-If you want, I can also create a minimal placeholder model (so you can test the UI without a trained model). Say "create placeholder model" and I'll add it.

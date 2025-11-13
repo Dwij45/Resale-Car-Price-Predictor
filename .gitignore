@@ -8,3 +8,4 @@ venv_sklearn161/
 .ipynb_checkpoints/
 
 extra
+.node_modules

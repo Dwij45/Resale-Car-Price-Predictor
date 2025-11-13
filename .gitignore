@@ -1,0 +1,10 @@
+# Virtual environments
+venv/
+.venv/
+venv_sklearn161/
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+extra
